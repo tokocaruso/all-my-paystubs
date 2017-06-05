@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+.title{
+color:green;
+font-family: Rock Salt;
+margin: 5px;
+}
+
+.main{
+
+background-color: #ff6600;
+padding: 5px;
+}
+
+.textcontainer{
+
+max-width: 640px;
+font-family: Cutive Mono;
+}
+
+.date{
+font-family: Cutive Mono;
+text-align: right;
+font-weight: bold;
+color: black;
+max-width: 640px;
+;
+}
+.thumbnail {
+padding: 1.5px;
+border: 1px;
+
+}
+a 
+{ color: inherit;
+    text-decoration: none;
+ } 
+
+.thumbnail:hover{
+     box-shadow: 0px 0px 100px #f4d7eb;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
